@@ -1,8 +1,10 @@
 # choices item
 class Choice
-  def choice
-    choice = ['rock', 'paper', 'scissors']
+  def initialize(rock, paper, scissors)
+    @rock = rock
+    @paper = paper
+    @scissors = scissors
   end
 
-  attr_reader :rock :paper :scissors
+  attr_reader :rock, :paper, :scissors
 end
