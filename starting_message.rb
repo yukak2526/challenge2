@@ -6,6 +6,7 @@ loop do
   puts '[Y]:Yes, ofcourse.'
   puts '[N]:No,yet.'
   puts '**************************'
+
   answer = gets.chomp
   case answer
   when 'n' || 'N'
@@ -16,6 +17,6 @@ loop do
     puts 'Okey, Game on!'
     break
   else
-    puts 'You are only input [Y] or [N]. Try again.'
+    puts 'You are only input [Y] or [N]. One more time.'
   end
 end

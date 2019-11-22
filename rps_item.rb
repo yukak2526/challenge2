@@ -1,5 +1,5 @@
-# choices item
-class Choice
+# item
+class RPS_Choice
   def initialize(rock, paper, scissors)
     @rock = rock
     @paper = paper

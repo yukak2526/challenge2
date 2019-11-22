@@ -3,7 +3,8 @@ require_relative 'choise'
 
 puts 'Rock, Paper, Scissors, One Two Three!'
 puts 'Your choice...'
-puts "R:#{rock} P:#{paper} S:#{scissors}"
+puts "[R]:#{rock} [P]:#{paper} [S]:#{scissors}"
+
 puts 'One more time!'
 puts 'HAHA! Your LOSE!!'
 puts 'EXCELLENT! Your WINNER!!'
